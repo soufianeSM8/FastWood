@@ -1,0 +1,347 @@
+
+/**************
+                 mobile and tablet
+*************/
+@media (min-width: 320px) and (max-width: 1024px) {
+  /************ start header ************/
+  header{height: auto;}
+  /* -- Landinfo -- */
+  .Landinfo{height: auto; padding: 10px 0;}
+  /* -- H_landt -- */
+  .H_landt,.drop_home{display: none;}
+  .menu{display: flex;}
+  /************ start main ************/
+  /* -- food_delivery -- */
+  /* -- best_prise -- */
+  /* -- big_banner -- */
+  /* -- menu_slider -- */
+  .disc_pate a,.atc i,.box_info_food_disc a{background-color: #ffc139 !important; }
+  .disc_pate a span,.disc_pate a i,.atc i,.box_info_food_disc a{color: #fff !important;}
+  .menu_item::before{opacity: 0.2 !important;}
+  .slider_items span {color: #3a3a3a;}
+  .price_plate{bottom: 150px;}
+  .disc_pate {bottom: 35px;}
+  .menu_slider_active {display: none;}
+  .btnSlider {display: block;}
+  .menuSliderContainer {margin-bottom: 30px;}
+  /* -- order_way -- */
+  .make_an_order_way::before,.make_an_order_way::after{display: none;}
+  /************ start footer ************/
+  /* -- sign_up -- */
+ /* -- contact_us -- */
+  /* -- instagram_follow -- */
+
+
+
+}
+@media (min-width: 320px) and (max-width: 767px) {
+     /************ start header ************/
+  /* -- Landinfo -- */
+  .Landinfo{flex-wrap: wrap;text-align: center;}
+  .H_info_phone,.H_logo,.H_adresse{flex: 1 0 100%;}
+  .H_logo{order: 1;}
+  .H_info_phone{order: 2;}
+  .H_adresse{order: 3;}
+  .H_info_phone span,.H_adresse p {margin-top: 0px;}
+  .H_info_phone ,.H_adresse { padding: 10px 0;}
+
+
+  /* -- H_landt -- */
+
+  /* -- menu -- */
+
+  /************ start main ************/
+  /* -- food_delivery -- */
+  .food_delivery {height: 400px; justify-content: center; align-items: center;}
+  .box_info_food{width: 80%; margin: 0;}
+  .box_info_food_disc {position: relative;z-index: 1;margin: 0;text-align: center;}
+  .box_info_food_disc p{margin: 0 auto;width: auto;}
+  .box_info_food_disc a{margin: 20px auto 0;}
+  /* -- best_prise -- */
+  .best_prise_always,.foods_order{flex-wrap: wrap;}
+  .img_best_prise,.best_prise_info{width: 100%;}
+  .best_prise_info{padding: 0 10px; text-align: center;}
+  .best_prise_disc p{width: auto;}
+  .best_prise_icon{justify-content: space-between;}
+  .best_icon{margin: 0; padding: 0 20px;}
+  .img_best_prise{text-align: center;}
+  .img_best_prise img {margin: 0 ;width: 70%; height: 95%;}
+  .best_prise_info h1 {margin: 0;}
+  /*----------*/
+  .box_food_order{text-align: center;width: 90%;display: flex; margin: 20px 0;}
+  .discr_food p {margin-left: auto; margin-right: auto;}
+  .food_M{margin-left: 0;}
+  .img_food img{width: 100%; max-width: 250px;}
+  .img_food{order: 1; ;margin: 15px 0;}
+  .food_info{order: 2;}
+
+  .food_info,.img_food{width: 100%;}
+
+  /* -- big_banner -- */
+  .big_banner{flex-wrap: wrap;}
+  .center_banner{flex:1 0 100%;order: 3;}
+  .left_banner,.right_banner{width: 50%;}
+  /* -- menu_slider -- */
+  .title_menu{flex-wrap: wrap; justify-content: space-between;width: 90%;margin: 0 auto; }
+
+
+
+  /* -- order_way -- */
+  .order_way{flex-wrap: wrap; height: auto;}
+  .order_tips{width: 100%; text-align: center !important; margin: 20px 0;}
+  .disc_order, .heading_order_tips{margin: 0; }
+  .img_receive_order {text-align: center;}
+  .disc_order p{width: 60%; margin: 20px auto 0;}
+  .heading_make_an_order, .disc_make_ane_order{width: auto;}
+  .make_an_order_way.order_tips{display: flex;flex-wrap: wrap;}
+  .heading_make_an_order,.disc_make_ane_order,.img_make_an_order{width: 100%;}
+  .img_make_an_order{order: 1;}
+  .heading_make_an_order,.disc_make_ane_order{order: 2;}
+  .container_flex {flex-wrap: wrap;}
+  .img_choose_order img, .img_make_an_order img, .img_receive_order img {margin: 0 auto;}
+  /************ start footer ************/
+  .footer_flex{flex-wrap: wrap;}
+
+  /* -- sign_up -- */
+  .sign_up{order: 1;}
+ /* -- contact_us -- */
+ .contact_us{order: 2;}
+  /* -- instagram_follow -- */
+  .instagram_follow{order: 3;}
+
+
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    /************ start header ************/
+  /* -- Landinfo -- */
+  .H_info_phone span,.H_adresse p {font-size: 14px;font-weight: 400;}
+  .H_logo a img{ width: 50%;}
+  /* -- H_landt -- */
+  /************ start main ************/
+  /* -- food_delivery -- */
+
+  .box_info_food img{top: 25px; left: 50%; width: 50%;transform: translateX(-50%);}
+  .box_info_food_disc h1 {font-size: 14vw;}
+
+  /* -- best_prise -- */
+  .best_prise_info h1{font-size: 10vw; margin-top: 20px;}
+  .best_prise_disc p{font-size: 4vw; font-weight: 400;}
+  .discr_food p{width: auto;}
+  .heading_foods1 h1 {font-size: 45px;}
+  /* -- big_banner -- */
+  .Bnr{ width: 100%;}
+  .center_info h3 {font-size: 21px;}
+  .center_info h1 {font-size: 45px;}
+
+  /* -- menu_slider -- */
+  .slider_items span{font-size: 12px;}
+
+  .slider_items{margin: 15px 17px;width: 20%;}
+
+  .menu_item{min-width: 90%; margin: 15px 5%;}
+  /* -- order_way -- */
+  .disc_order p{width: 80%;}
+  .img_choose_order img,.img_make_an_order img,.img_receive_order img{width: 60%;}
+  .heading_order_tips h2{font-size: 20px;}
+  .heading_order_tips span i{font-size: 30px;}
+  .box_food_order {flex-wrap: wrap;}
+  /************ start footer ************/
+  .footer_flex{text-align: center;}
+  .footer_items{width: 90%; margin: 0 auto;padding: 20px 0;}
+  /* -- sign_up -- */
+  .sign_up_input,.sign_up_input input{width: 80%;}
+  .sign_up_input{margin: 0 auto;}
+  .social_sign ul{justify-content: center;}
+  .social_sign{margin: 20px 0 0;}
+  .social_sign ul li{margin: 0 10px;}
+ /* -- contact_us -- */
+ .phone{font-size: 14px;}
+  /* -- instagram_follow -- */
+  .insta_box{width: 26%;height: auto;}
+  .instagram_profile,.contact_us ul li{justify-content: center;}
+
+
+}
+@media (min-width: 481px) and (max-width: 767px) {
+
+  /************ start header ************/
+  /* -- Landinfo -- */
+  /* -- H_landt -- */
+  /************ start main ************/
+  /* -- food_delivery -- */
+  .box_info_food img{top: 0;left: 50%;width: 300px;transform: translateX(-50%);}
+
+
+
+
+
+
+  /* -- best_prise -- */
+  .best_prise_icon{max-width: 70%; margin: 30px auto 0;}
+  .heading_foods1 h1,.heading_foods1 h3 {font-size: 25px;}
+  .heading_foods1 {line-height: 30px;}
+  .discr_food p {margin-top: 0; width: auto;}
+
+  /* -- big_banner -- */
+  .right_info img { width: 200px;}
+  /* -- menu_slider -- */
+
+  .slider_items{margin: 15px 0; width: 16%;}
+  .slider_items span {font-size: 13px;}
+  .slider_items img {width: 50%;}
+  .menu_item{min-width: calc(96% / 2);}
+  .right_info img
+  .img_plate img{width: 75%; margin: 15px auto;height: auto;}
+  /* -- order_way -- */
+  .heading_order_tips h2{font-size: 25px;}
+  .heading_order_tips span i{font-size: 35px;}
+  .box_food_order { align-items: center;}
+
+  /************ start footer ************/
+  .footer_flex {justify-content: space-around;}
+  .footer_items {width: 46%; font-size: 12px !important; margin: 0 auto; }
+  .insta_box {width: calc(94% / 3); margin: 1%;}
+  .contact_us ul li i {font-size: 16px;padding-right: 10px;}
+  .phone {font-size: 12px}
+  .contact_us ul li a {width: 100%;}
+  .contact_us {padding-top: 20px;}
+  .instagram_follow {order: 1;}
+  /* -- sign_up -- */
+ /* -- contact_us -- */
+  /* -- instagram_follow -- */
+
+
+
+
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+/************ start header ************/
+  /* -- Landinfo -- */
+  .H_info_phone span,.H_adresse p{font-size: 12px; margin-left: 0; margin-right: 0;}
+  .Landinfo{justify-content: space-around;}
+
+  /* -- H_landt -- */
+
+  .drop_box{width: 30%;height: 20%;}
+  .drop_Br{width: 41%; margin: 10px auto !important;}
+  .left_drop_banner,.right_drop_banner{ margin-left: 0; margin-right: 0;}
+  .left_drop_banner p{font-size: 15px;margin: 19px 5px; width: auto;}
+  .left_drop_banner p span{font-size: 20px;}
+  .left_drop_banner img{margin: 8px 5px;}
+  .left_drop_banner{justify-content: space-around;}
+  .left_drop_banner a{width: 107px; padding: 10px 9px;margin: 30px 5px 0;}
+  .right_drop_banner p{margin: 23px 4px;word-spacing:10px;font-size: 21px;}
+  .right_drop_banner span{font-size: 14px; word-spacing: 0;letter-spacing: 4px;}
+  .right_drop_banner a{margin: 30px 4px;padding-left: 14px; padding-right: 14px;float: none;}
+  .right_drop_banner, .left_drop_banner{text-align: center;}
+
+  .menu {top:1%; right: 1%;}
+  /************ start main ************/
+  /* -- food_delivery -- */
+  /* -- best_prise -- */
+  .best_prise_always{margin-top: 30px;}
+  .img_best_prise,.best_prise_info{width: 50%;}
+  .best_prise_info{padding: 0 !important;}
+  .img_best_prise img{width:90% ; margin: 100px 0 0 0;height: auto;}
+  .best_prise_info h1{font-size: 40px;margin-top: 40px;}
+  .best_prise_disc p{width: 90%; margin: 0 auto;}
+  /* -- big_banner -- */
+
+  .box_food_order{width: 34%;text-align: center;}
+  .img_food img{width: 70%;margin: 15px auto;}
+  .food_M {margin: 0; padding: 0 5px;}
+  .discr_food p{width: 80%;margin: 10px auto;}
+  .heading_foods1 h1{font-size: 40px;}
+  .big_banner{flex-wrap: wrap;}
+  .center_banner{order: 3;width: 100%;}
+  .left_banner,.right_banner{width: 50%;}
+  .left_banner{order: 1;}
+  .right_banner{order: 2;}
+  /* -- menu_slider -- */
+  .slider_items{margin: 0 30px;}
+  .slider_items span {font-size: 14px;}
+
+  .menu_item{min-width: calc(94% / 3);}
+  /* -- order_way -- */
+  .img_choose_order img,.img_make_an_order img,.img_receive_order img{width: 80%;}
+  .disc_order, .heading_order_tips{margin-left: 0;}
+  .heading_order_tips h2{font-size: 20px;}
+  .heading_order_tips span i{font-size: 30px;}
+  .disc_order p{width: 80% !important; }
+  .heading_make_an_order, .disc_make_ane_order{width: auto;}
+  .heading_order_tips span{margin-left: 10px;}
+  .disc_choose_order,.heading_choose_order,.heading_make_an_order, .disc_make_ane_order,.heading_receive_order, .disc_receive_order{margin-left: 15px;}
+  /************ start footer ************/
+  .footer_items{padding: 70px 10px 40px 10px;width: 50%;margin: 0 auto;}
+  /* -- sign_up -- */
+  .sign_up_input{width: 90%;}
+  .sign_up_input input{width: 84%;}
+  .sign_up_input button{padding-left: 6px;padding-right: 6px;}
+  /* -- contact_us -- */
+  /* -- instagram_follow -- */
+  .insta_box{width: 28%;height: auto;}
+}
+/**************
+     min-width for laptop to max width for laptop
+**************/
+@media (min-width: 1281px) {
+main,footer {overflow: hidden;}
+  .left_drop_banner a{margin-left: 30px;}
+
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /************ start header ************/
+  /* -- Landinfo -- */
+  /* -- H_landt -- */
+  .drop_box{width: 30%;height: 20%;}
+  .left_drop_banner p span{font-size: 24px;}
+  .left_drop_banner p {font-size: 16px;margin-top: 19px;width: 170px;}
+  .left_drop_banner a{width: 106px;margin: 35px 14px 0 14px;padding: 10px 8px;}
+  .right_drop_banner p{font-size: 30px;word-spacing: 5px;}
+  .right_drop_banner span{font-size: 16px;word-spacing: 0;letter-spacing: 5px;}
+  .right_drop_banner a{float: none;margin: 39px 12px 0 ;}
+  .right_drop_banner{text-align: center;}
+  .drop_Br{justify-content: center;}
+  .img_banner,.order_banner{margin: 0 auto;}
+  /************ start main ************/
+  /* -- food_delivery -- */
+  /* -- best_prise -- */
+  .img_best_prise,.best_prise_info{width: 50%;}
+  .img_best_prise img{width: 100%;height: auto;}
+  .best_prise_info{padding-left: 30px;}
+  .best_prise_info h1{margin-top: 30px;}
+  .best_prise_disc p{width: auto;}
+  .food_M{margin-left: 20px;}
+
+  /* -- big_banner -- */
+  /* -- -- */
+  .slider_items{margin: 0 30px;}
+  .menu_item{width: 24%;}
+  .disc_pate p{width: auto;}
+  /* -- order_way -- */
+  .heading_receive_order, .disc_receive_order {margin-left: 61px;}
+  .disc_order, .heading_order_tips{margin-left: 42px;}
+  .make_an_order_way::before,.make_an_order_way::after{display: none;}
+  /************ start footer ************/
+  .footer_items{padding-left: 20px;}
+  /* -- sign_up -- */
+ /* -- contact_us -- */
+  /* -- instagram_follow -- */
+  .insta_box{width: 29%;height: 20%;}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
